@@ -1,21 +1,46 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: Futura;
+    src: url(./fonts/Futura\ Book\ font.ttf);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+@font-face {
+    font-family: Futura Light;
+    src: url(./fonts/Futura\ Light\ font.ttf);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+@font-face {
+    font-family: Futura Medium;
+    src: url(./fonts/futura\ medium\ bt.ttf);
+}
+
+@font-face {
+    font-family: Futura Heavy;
+    src: url(./fonts/Futura\ Heavy\ font.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Futura;
+}
+
+.app-container {
+}
+
+.page-1-container {
+  background-color: #ffbcc6;
+  height: 100vh;
+  padding: 20;
+  background-image: url(./images/usashape.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 90%;
+}
+
+.page1-title {
   color: white;
-}
-
-.App-intro {
-  font-size: large;
+  font-size: 84px;
+  margin: 0;
 }
 
 @keyframes App-logo-spin {
